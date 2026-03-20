@@ -1,0 +1,32 @@
+{
+  "train": {
+    "defect1": 210,
+    "defect2": 210,
+    "defect3": 210,
+    "defect4": 210,
+    "defect5": 210,
+    "defect8": 210,
+    "defect9": 210,
+    "defect10": 210
+  },
+  "val": {
+    "defect1": 45,
+    "defect2": 45,
+    "defect3": 45,
+    "defect4": 45,
+    "defect5": 45,
+    "defect8": 45,
+    "defect9": 45,
+    "defect10": 45
+  },
+  "test": {
+    "defect1": 45,
+    "defect2": 45,
+    "defect3": 45,
+    "defect4": 45,
+    "defect5": 45,
+    "defect8": 45,
+    "defect9": 45,
+    "defect10": 45
+  }
+}
