@@ -21,7 +21,7 @@ The project combines:
 - GPU acceleration with CUDA support
 - modular backend structure for deployment
 
-According to the project report, the system was designed for a low-data manufacturing setting where defect classification affects yield, product quality, and time-to-market. The report also notes that the challenge specifically targets learning from limited labeled data. fileciteturn0file0
+According to the project report, the system was designed for a low-data manufacturing setting where defect classification affects yield, product quality, and time-to-market. The report also notes that the challenge specifically targets learning from limited labeled data. 
 
 ---
 
@@ -51,7 +51,7 @@ The report also highlights two core constraints of the dataset:
 - real production environments have **limited labeled data**
 - the raw class distribution is **heavily imbalanced**
 
-These conditions make the task more challenging than standard image classification and justify the use of balancing strategies and transfer learning. fileciteturn0file0
+These conditions make the task more challenging than standard image classification and justify the use of balancing strategies and transfer learning. 
 
 ---
 
@@ -69,7 +69,7 @@ The system predicts one of the following classes:
 - defect10
 - new_good
 
-> Note: the challenge presentation describes the dataset as **9 defect categories plus 1 good/non-defective category**. fileciteturn0file0
+> Note: the challenge presentation describes the dataset as **9 defect categories plus 1 good/non-defective category**.
 
 ### Dataset balancing strategy
 
@@ -79,7 +79,7 @@ The report states that:
 - the remaining classes were undersampled
 - all classes were balanced to **300 samples each**
 
-This balancing strategy was used to reduce bias toward majority classes and create a more uniform training distribution. fileciteturn0file0
+This balancing strategy was used to reduce bias toward majority classes and create a more uniform training distribution. 
 
 ![Dataset analysis and class distribution](backend/app/assets/dataset_analysis.png)
 
@@ -92,7 +92,7 @@ This balancing strategy was used to reduce bias toward majority classes and crea
 - **Task:** multi-class semiconductor defect classification
 - **Image type:** grayscale semiconductor imagery
 
-The report notes that EfficientNet-B2 was selected and fine-tuned to achieve strong performance despite limited and imbalanced training data. fileciteturn0file0
+The report notes that EfficientNet-B2 was selected and fine-tuned to achieve strong performance despite limited and imbalanced training data. 
 
 ---
 
@@ -103,7 +103,7 @@ The report notes that EfficientNet-B2 was selected and fine-tuned to achieve str
 - **Test Accuracy:** 95.56%
 - **Best Validation Accuracy:** 97.50%
 
-The report further states that most classes achieved precision, recall, and F1-scores above 0.95, with strong diagonal dominance in the confusion matrix, indicating that the model correctly classifies most held-out samples. fileciteturn0file0
+The report further states that most classes achieved precision, recall, and F1-scores above 0.95, with strong diagonal dominance in the confusion matrix, indicating that the model correctly classifies most held-out samples. 
 
 ![Training curves](backend/app/assets/training_curves_report.png)
 
@@ -235,8 +235,8 @@ Expected files:
 
 The screenshots below illustrate the dashboard-style prediction interface shown in the project report. fileciteturn0file0
 
-![Dashboard prediction examples](backend/app/assets/dashboard_demo.png)
-
+![Dashboard prediction examples](backend/app/assets/demo1.png)
+![Dashboard prediction examples](backend/app/assets/demo2.png)
 ---
 
 ## Deployment Options
@@ -283,7 +283,7 @@ Based on the report, the project assumes:
 - augmentation does not distort core defect characteristics
 - balancing all classes to equal sample counts improves learning stability
 
-These assumptions are summarized in the challenge presentation. fileciteturn0file0
+These assumptions are summarized in the challenge presentation. 
 
 ---
 
@@ -308,4 +308,4 @@ Intended for academic, research, and portfolio use unless otherwise specified in
 
 ## Acknowledgment
 
-Built for the **Intel Semiconductor Solutions Challenge 2026**. Performance numbers, dataset balancing details, and challenge context in this README were aligned with the uploaded project report. fileciteturn0file0
+Built for the **Intel Semiconductor Solutions Challenge 2026**. Performance numbers, dataset balancing details, and challenge context in this README were aligned with the uploaded project report. 
