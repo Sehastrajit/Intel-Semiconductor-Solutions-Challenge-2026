@@ -233,7 +233,7 @@ Expected files:
 - `confusion_matrix_val.png`
 - `training_curves.png`
 
-The screenshots below illustrate the dashboard-style prediction interface shown in the project report. fileciteturn0file0
+The screenshots below illustrate the dashboard-style prediction interface shown in the project report. 
 
 ![Dashboard prediction examples](backend/app/assets/demo1.png)
 ![Dashboard prediction examples](backend/app/assets/demo2.png)
