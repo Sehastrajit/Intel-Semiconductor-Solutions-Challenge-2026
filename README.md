@@ -4,7 +4,7 @@ AI-powered semiconductor defect classification platform built with **PyTorch**, 
 
 Developed for the **Intel Semiconductor Solutions Challenge 2026**.
 
-![Intel Semiconductor Solutions Challenge 2026](assets/challenge_cover.png)
+![Intel Semiconductor Solutions Challenge 2026](backend/app/assets/challenge_cover.png)
 
 ---
 
@@ -81,7 +81,7 @@ The report states that:
 
 This balancing strategy was used to reduce bias toward majority classes and create a more uniform training distribution. fileciteturn0file0
 
-![Dataset analysis and class distribution](assets/dataset_analysis.png)
+![Dataset analysis and class distribution](backend/app/assets/dataset_analysis.png)
 
 ---
 
@@ -105,9 +105,9 @@ The report notes that EfficientNet-B2 was selected and fine-tuned to achieve str
 
 The report further states that most classes achieved precision, recall, and F1-scores above 0.95, with strong diagonal dominance in the confusion matrix, indicating that the model correctly classifies most held-out samples. fileciteturn0file0
 
-![Training curves](assets/training_curves_report.png)
+![Training curves](backend/app/assets/training_curves_report.png)
 
-![Test-set results and confusion matrix](assets/results_confusion_matrix.png)
+![Test-set results and confusion matrix](backend/app/assets/results_confusion_matrix.png)
 
 ---
 
@@ -235,7 +235,7 @@ Expected files:
 
 The screenshots below illustrate the dashboard-style prediction interface shown in the project report. fileciteturn0file0
 
-![Dashboard prediction examples](assets/dashboard_demo.png)
+![Dashboard prediction examples](backend/app/assets/dashboard_demo.png)
 
 ---
 
